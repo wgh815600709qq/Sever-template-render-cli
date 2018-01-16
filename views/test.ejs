@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <% if (typeof msg === 'object') { %>
+  <span><%=JSON.stringify(msg[0])%></span>
+  <% } %>
+  <button onclick="add()">加管理员</button>
+  <button onclick="query()">查询</button>
+  <button onclick="drop()">删除</button>
+  <button onclick="edit()">修改</button>
+  <script type="text/javascript" src="js/ajax.js"></script>
+  <script type="text/javascript" src="js/test.js"></script>
+</body>
+</html>
