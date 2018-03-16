@@ -1,3 +1,5 @@
 ## SSR using Express
 
-## Express + Sequelize + ejs + mysql
+### Using `Express + Sequelize + Ejs-render-template + Mysql`
+
+### Solution on solving problem
